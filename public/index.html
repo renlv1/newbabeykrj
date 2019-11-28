@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <meta name="keywords" content="纽北 newbabe 纽北官网，newbabe下载 豪车 高颜值">
+    <meta name="description"
+          content="Newbabe 是一个“以豪车交友”的高端社交 APP。我们希望为用户打造一个高品质的豪车社交平台，让用户获得最好的社交体验。致力于创造一个优质的社交平台，打造专属于贵族的社交世界，让精英人士真正享受社交。">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Newbabe 纽北 - 豪车买卖，专属社交圈</title>
+    <script>
+        !function (e, t) {
+            function n() {
+                t.body ? t.body.style.fontSize = 12 * o + "px" : t.addEventListener("DOMContentLoaded", n)
+            }
+
+            function d() {
+                var e = i.clientWidth / 7.5;
+                i.style.fontSize = e + "px"
+            }
+
+            var i = t.documentElement, o = e.devicePixelRatio || 1;
+            if (n(), d(), e.addEventListener("resize", d), e.addEventListener("pageshow", function (e) {
+                e.persisted && d()
+            }), o >= 2) {
+                var a = t.createElement("body"), s = t.createElement("div");
+                s.style.border = ".5px solid transparent", a.appendChild(s), i.appendChild(a), 1 === s.offsetHeight && i.classList.add("hairlines"), i.removeChild(a)
+            }
+        }(window, document);
+        if (window.innerWidth > 1200) {
+            window.location.href = 'http://www.newbabe.com/'
+        }
+    </script>
+</head>
+<body>
+<noscript>
+    <strong>We're sorry but rewardhunter doesn't work properly without JavaScript enabled. Please enable it to
+        continue.</strong>
+</noscript>
+<div id="app"></div>
+<!-- built files will be auto injected -->
+</body>
+</html>
